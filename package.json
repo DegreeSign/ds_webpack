@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "@degreesign/webpack",
-  "version": "1.6.5",
+  "version": "1.6.7",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +19,7 @@
   },
   "author": "DegreeSign",
   "homepage": "https://degreesign.com",
-  "description": "DegreeSign WebApp package using webpack",
+  "description": "DegreeSign webpack setup for WebApps",
   "bugs": {
     "url": "https://github.com/DegreeSign/ds_webpack/issues"
   },

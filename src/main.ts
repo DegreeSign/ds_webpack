@@ -70,7 +70,7 @@ const build = (params: ConfigBuild): Configuration => {
             },
         },
         ...isWebApp ? {} : {
-            target: 'node', // Target Node.js environment
+            target: 'node18', // Target Node.js environment
             node: {
                 __dirname: false, // Prevent Webpack from mocking __dirname
                 __filename: false, // Prevent Webpack from mocking __filename

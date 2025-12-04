@@ -1,5 +1,5 @@
-# DegreeSign WebApp
-The progressive web application template built with Webpack and TypeScript. Leverage `@degreesign/webpack` package for streamlined configuration and deployment.
+# DegreeSign webpack setup for WebApps
+The progressive web application template built with Webpack and TypeScript. Leverage `@degreesign/webpack` package for streamlined configuration and deployment. In addition to server bundling.
 
 ## Features
 - **Webpack-powered**: Optimised bundling for production-ready applications.
