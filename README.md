@@ -148,8 +148,8 @@ module.exports = build({
 ## Getting Started
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/DegreeSign/ds_webapp.git
-   cd ds_webapp
+   git clone https://github.com/DegreeSign/ds_webpack.git
+   cd ds_webpack
    ```
 2. **Install Dependencies**:
    ```bash
