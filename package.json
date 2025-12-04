@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "degreesign",
+  "name": "@degreesign/webpack",
   "version": "1.6.5",
   "main": "dist/index.js",
   "module": "dist/index.js",

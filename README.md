@@ -1,18 +1,18 @@
 # DegreeSign WebApp
-The progressive web application template built with Webpack and TypeScript. Leverage `degreesign` package for streamlined configuration and deployment.
+The progressive web application template built with Webpack and TypeScript. Leverage `@degreesign/webpack` package for streamlined configuration and deployment.
 
 ## Features
 - **Webpack-powered**: Optimised bundling for production-ready applications.
 - **TypeScript Support**: Ensures type safety and modern JavaScript features.
 - **Modular Structure**: Organised folder layout for scalability.
 - **SEO & PWA Ready**: Configurable metadata and manifest for progressive web apps.
-- **Customisable**: Flexible Webpack configuration via `degreesign`.
+- **Customisable**: Flexible Webpack configuration via `@degreesign/webpack`.
 
 ## Recommended Setup
 1. **Node.js**: Version 18.x or higher.
 2. **Package Manager**: npm or Yarn.
 3. **Dependencies**:
-   - Install the `degreesign` package: `npm install degreesign`.
+   - Install the `@degreesign/webpack` package: `npm install @degreesign/webpack`.
    - Install Webpack and TypeScript: `npm install webpack webpack-cli typescript ts-loader`.
 4. **Environment**:
    - Create a `.env` file in the root directory with for any keys used in ts code.
@@ -31,7 +31,7 @@ Add file `package.json` as following
     "start_server": "webpack serve --config webpack.server.ts"
   },
   "devDependencies": {
-    "degreesign": "latest"
+    "@degreesign/webpack": "latest"
   }
 }
 ```
@@ -65,7 +65,7 @@ app_folder/
 ### Configuration
 Add `webpack.web.ts` file as the core of the webapp build process as following
 ```typescript
-import { build } from "degreesign";
+import { build } from "@degreesign/webpack";
 
 module.exports = build({
   type: "webapp",
@@ -126,7 +126,7 @@ app_folder/
 ### Configuration
 Add `webpack.server.ts` file as the core of the server build process as following
 ```typescript
-import { build } from "degreesign";
+import { build } from "@degreesign/webpack";
 
 module.exports = build({
     type: `server`,
